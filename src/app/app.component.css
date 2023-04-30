@@ -1,0 +1,157 @@
+.main-area {
+    margin:30px 50px;
+    padding: 20px 20px;
+}
+
+.content-area {
+    padding: 20px 20px;
+    background-color: #f6f7f1;
+}
+
+.header {
+    text-align: center;
+    color: #5e1c1c;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: rgb(63, 3, 28);
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: antiquewhite;
+}
+
+.container {
+    display: flex;
+}
+
+.form-area{
+    width: 50%;
+    padding: 10px 15px;
+}
+
+.product-display-area{
+    width: 50%;
+    padding: 10px 15px;
+}
+
+input[type=text],select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid rgb(249, 138, 125);
+    border-radius: 6px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    background-color: beige;
+    border: #f6f7f1;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 40%;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(32, 184, 184);
+}
+
+#products {
+    color: black;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 100%;
+}
+
+#products td, #products th {
+    padding: 4px;
+   
+  }
+  
+  #products tr:nth-child(odd){background-color: hsl(101, 40%, 82%);}
+  #products tr:nth-child(even){background-color: hsl(60, 64%, 77%);}
+  
+  #products th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #222;
+    color: white;
+  }
+
+  button{
+    border: none;
+    padding: 8px 15px;
+    margin: 0px 5px;
+  }
+
+  .btn-delete{
+    background-color: #e9b7ab;
+    color: rgb(62, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+  }
+
+  .btn-delete:hover {
+    background-color: rgb(37, 113, 88);
+  }
+  .btn-edit{
+    background-color: #e9b7ab;
+    color: rgb(30, 10, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .btn-edit:hover {
+    background-color: rgb(37, 113, 88);
+  }
+
+  .btn-fetch{
+    background-color: hwb(204 76% 5%);
+    color: rgb(5, 40, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .btn-fetch:hover {
+    background-color: rgb(183, 118, 243);
+  }
+
+  .btn-clear{
+    background-color: hwb(204 76% 5%);
+    color: rgb(5, 40, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .btn-clear:hover {
+    background-color: rgb(183, 118, 243);
+  }
+
+  label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
